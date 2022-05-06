@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Onu</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.un.org/sites/un2.un.org/files/un-logo_0.png"
+    />
+  </head>
+
+  <body>
+    <div class="fundo">
+      <!-- Conselho de Segurança -->
+      <h1 class="title">Organização das Nações Unidas</h1>
+      <div class="content">
+        Foi criada em 1945 pelos representantes de 51 países, reunidos na
+        conferência de São Francisco, aprovaram a carta de princípios dessa
+        organização. O objetivo da ONU é preservar a paz e a segurança no mundo,
+        promovendo a cooperação internacional.
+        <br />
+        a ONU é dividia em 6 orgãos: <br />
+        <ul>
+          <li>assembleia geral (principal orgão)</li>
+          <li>conselho de segurança (possui maior poder)</li>
+          <li>conselho econômico e social</li>
+          <li>tribunal internacional de justiça</li>
+          <li>conselho de tutela</li>
+          <li>secretariano</li>
+        </ul>
+      </div>
+
+      <!-- Assembleia Geral -->
+      <h1 class="title">Assembleia Geral</h1>
+      <div class="content">
+        <img
+          style="float: right"
+          src="https://www.cartacapital.com.br/wp-content/uploads/2020/09/48788482792_d84e8340fa_k-2.jpg"
+        />
+        <p>
+          A Assembleia Geral é o orgão mais geral das Nações Unidas, é o unico
+          que conta com voto igualitário. A assembleia se reune anualmente,
+          entre novembro e dezembro, então de janeiro a novembro do ano seguinte
+          as pautas mais importantes são debatidas.
+          <br />
+          O Brasil sempre abre a Assemblia geral da Onu, isso por que na
+          primeira Assembleia geral especial da onu, em 1947, o brasileiro
+          Oswaldo Aranha abriu a sessão.
+        </p>
+        <br />
+        <h3>Alguns dos principais papeis da Assembleia geral:</h3>
+        <br />
+        <ul>
+          <li>Aprovar um orçamento para as Nações Unidas;</li>
+          <li>Eleger os membros do Conselho de segurança;</li>
+          <li>
+            Fazer recomendações para manter a paz em conflitos internacionais;
+          </li>
+          <li>
+            Começar estudos e promover cooperação internacional para a relização
+            dos direitos humanos e das liberdades fundamentais, além de promover
+            a colaboração internacional nos campos economicos, humanitarios,
+            culturais, educacionais e na saude;
+          </li>
+          <li>Sempre tentar chegar em resolução pacificas para conflitos;</li>
+          <li>Analisar os relatorios dos outros orgãos da onu.</li>
+          Além de poder tomar decisões em casos de violações da paz caso algum
+          membro permanente do Conselho de segurança vete a pauta.
+        </ul>
+      </div>
+
+      <!-- Conselho de Segurança -->
+      <h1 class="title">Conselho de Segurança</h1>
+      <div class="content">
+        O conselho de segurança é o principal órgão da Organização das Nações
+        Unidas (ONU), foi criado logo após o fim da segunda guerra, em 1945,
+        para garantir a paz e a segurança internacional, impedindo que outro
+        acontecimento como esse aconteça novamente. Ele que autoriza as sanções
+        economicas, o envio de missões de paz e o uso de força em determinada
+        situação.
+        <br />
+        É composto por 5 membros permanentes: Estados Unidos, França, Russia,
+        China e Reino Unido. e mais 10 membros rotativos, que são eleitos pela
+        assembleia geral e cumprem um mandato de dois anos. É separados por
+        regiões e continentes. Os membros permanentes foram escolhidos logo no
+        começo do órgão, eram eles que representavam os responsáveis pela
+        estabilidade internacional. Recebendo eles o direito a vetos e
+        indiretamente os tornando mais poderosos e influentes que outros países
+        do conselho.
+        <h3>
+          Quer saber um pouco sobre os países que estão no Conselho de
+          Segurança? Gire a Roleta!!!
+        </h3>
+      </div>
+
+      <div class="interativo">
+        <div id="app">
+          <img class="marker" src="img/marker.png" />
+          <img class="wheel" src="img/roleta.png" />
+          <button class="button">Girar</button>
+          <div class="escolha">
+            <p>
+              Caso queira saber sobre um país em especifico:
+              <select id="paisesConselho" onchange="myFunction()">
+                <option>Selecione</option>
+                <option value="China">China</option>
+                <option value="Rússia">Rússia</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+                <option value="França">França</option>
+                <option value="Reino Unido">Reino Unido</option>
+                <option value="Gabão">Gabão</option>
+                <option value="Senegal">Gana</option>
+                <option value="Índia">Índia</option>
+                <option value="Emirados Árabes Unidos">
+                  Emirados Árabes Unidos
+                </option>
+                <option value="albania">Albânia</option>
+                <option value="quenia">Quênia</option>
+                <option value="irlanda">Irlanda</option>
+                <option value="noruega">Noruega</option>
+                <option value="Brasil">Brasil</option>
+                <option value="mexico">México</option>
+              </select>
+            </p>
+          </div>
+        </div>
+        <div class="displayContainer">
+          <div id="display">
+            <img
+              src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/onu.jpg"
+              alt="Bandeira da Onu"
+              class="bandeira"
+            />
+            <br />
+            País: <br />
+            Mandato: <br />
+            Região: <br />
+            Grupos econômicos:
+          </div>
+        </div>
+        <script src="java.js"></script>
+      </div>
+
+      <!-- Conselho Econômico e Social -->
+      <h1 class="title">Conselho Econômico e Social</h1>
+      <div class="content">
+        <img
+          style="float: right"
+          class="image"
+          src="https://onusebes.files.wordpress.com/2015/05/sala-do-conselho-economico-social-onu.jpg?w=640"
+        />
+        Tem 54 membros que são eleitos com um mandato de 3 anos na Assembleia
+        Geral.
+        <br />
+        É o conselho central para debates sobre questões economicas, ambientais
+        e sociais, onde é formulado recomendações para os membros da onu.
+        <br />
+        Existem as seguintes comissões nesse conselho:
+        <ul>
+          <li>FAO( para alimentação e agricultura)</li>
+          <li>OIT (Organização Internacional do Trabalho)</li>
+          <li>A OMS (Organização Mundial de Saude)</li>
+          <li>A unesco ( Pra educação ciencia e Cultura)</li>
+          <li>Conselho de direitos humanos.</li>
+        </ul>
+        <br />
+      </div>
+
+      <!-- Tribunal Internacional de Justiça -->
+      <h1 class="title">Tribunal Internacional de Justiça</h1>
+      <div class="content">
+        <img
+          class="image"
+          src="https://veja.abril.com.br/wp-content/uploads/2016/05/alx_635585585038083168_original.jpeg"
+        />
+        A principal função do Tribunal Internacional de Justiça é resolver
+        conflitos jurídicos a ele submetidos por Estados e emitir pareceres
+        sobre questões jurídicas apresentadas ordinariamente pela Assembleia
+        Geral das Nações Unidas ou pelo Conselho de Segurança das Nações Unidas.
+        Eles podem solicitar parecer consultivo órgãos e agências especializadas
+        autorizados pela Assembleia Geral da ONU, desde que as questões
+        submetidas estejam dentro de sua esfera de atividade
+        <br />
+      </div>
+      <!-- Conselho de Tutela -->
+      <h1 class="title">Conselho de Tutela</h1>
+      <div class="content">
+        <img
+          style="float: right"
+          class="image"
+          src="https://www.politize.com.br/wp-content/uploads/2022/03/CS-ONU.jpeg"
+        />
+        O Conselho de Tutela tinha a função de proteger povos sem governo
+        próprio sendo composto por membros do Conselho de Segurança e outros
+        eleitos pela Assembleia Geral. Foi desativado em 1997, três anos após a
+        independência da última colônia, Palau, que se tornou um Estado membro
+        das Nações Unidas, em dezembro de 1994. O conselho só se reúne a pedido
+        da Assembleia Geral.
+        <br />
+        <br />
+      </div>
+      <!-- Secretariano -->
+      <h1 class="title">secretariano</h1>
+      <div class="content">
+        <img
+          class="image"
+          src="https://static.poder360.com.br/2018/01/Guterres.jpg"
+        />
+        A Secretaria-Geral é o órgão administrativo da Organização das Nações
+        Unidas (ONU), cujo representante máximo é o “Secretário-Geral” e que, no
+        que diz respeito às relações da Organização com outras Organizações ou
+        Estados, é a autoridade máxima das Nações. Unidos. Embora a posição do
+        Secretário-Geral tendesse a ser passiva, após a nomeação de Kofi Annan
+        (1997-2006), este passou a ter uma influência transversal nas relações
+        internacionais, no Direito Internacional e na mediação em conflitos
+        militares.
+        <br />
+        O Secretariado Geral da ONU é dirigido pelo secretário-geral, a
+        principal autoridade da ONU, que tem a função de administrar a
+        instituição.<br />
+        É eleito por 5 anos (com direito a reeleição), pelo Conselho de
+        Segurança e aprovado pela Assembleia Geral.<br />
+        Em 2019, o diplomata português Antônio Guterres(na imagem) ocupa esta função. Seu
+        mandato termina em 2022.
+        <br />
+        <br>
+      </div>
+    </div>
+  </body>
+</html>

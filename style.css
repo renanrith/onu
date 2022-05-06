@@ -1,0 +1,156 @@
+@font-face {
+  font-family: marry;
+  src: url(Merriweather/Merriweather-Regular.ttf);
+}
+
+body {
+  background-image: url("https://www.infoescola.com/wp-content/uploads/2021/06/assembleia-geral-onu_488385931.jpg");
+  font-family: marry;
+  margin: 0;
+  max-width: 2000px;
+  margin: auto;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  background-size: cover;
+}
+
+.image{
+  width: 40rem;
+  float: left;
+  margin: 10px;
+}
+.content h3 {
+  margin: 0px;
+  display: inline;
+}
+
+.content p {
+  margin: 0;
+}
+
+.content img {
+  width: 40rem;
+  margin: 10px;
+}
+
+.fundo {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #1d3273;
+}
+
+.bandeira {
+  width: 250px;
+  padding-right: 10px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 0;
+  margin: 1rem;
+}
+
+.title {
+  margin-top: 0;
+  text-align: center;
+}
+.content {
+  margin: 5rem;
+  margin-top: 1rem;
+  text-align: left;
+  font-size: 20px;
+}
+
+.header {
+  margin-left: 20px;
+}
+
+#app {
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 50px;
+  position: relative;
+  display: block;
+  float: left;
+  border: 10px;
+  border-color: black;
+}
+
+.interativo {
+  margin-top: 20px;
+  height: 40rem;
+  width: 98%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.displayContainer {
+  float: left;
+  padding-top: 100px;
+  height: 55%;
+  max-width: 50%;
+  width: 100%;
+  border: 10px;
+  border: solid #000;
+  border-width: 5px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#display {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+  display: inline;
+  font-size: 1.5rem;
+}
+
+.marker {
+  position: absolute;
+  width: 60px;
+  left: 172px;
+  top: -20px;
+  z-index: 2;
+}
+
+.wheel {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  display: block;
+  height: 50px;
+  width: 250px;
+  margin: 40px auto;
+  cursor: pointer;
+  background-color: #85bff2;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.interativo p {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.escolha {
+  width: 50rem;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+#paisesConselho {
+  background-color: #85bff2;
+  border-radius: 10px;
+  font-size: 20px;
+}
